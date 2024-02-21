@@ -43,7 +43,7 @@ jobs:
         command: "[ $(cat .github/script/STEP) -ge 3 ] || [ $(cat .github/script/STEP)
           = X ]"
         timeout: 10
-        max-score: 5
+        max-score: 0
     - name: Step 4 Make a task list
       id: step-4-make-a-task-list
       uses: education/autograding-command-grader@v1
