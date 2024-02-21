@@ -97,7 +97,7 @@ jobs:
         with:
           token: ${{ secrets.GLOBAL_CLASSROOM_ORG_TOKEN }}
           from_step: 0
-          to_step: 1
+          to_step: 5
           branch_name: start-markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GLOBAL_CLASSROOM_ORG_TOKEN }}
